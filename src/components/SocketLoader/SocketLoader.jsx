@@ -3,7 +3,7 @@ import "./SocketLoader.css"
 
 export const SocketLoader = () => {
   return (
-<ul class="wave-menu">
+<ul className="wave-menu">
   <li></li>
   <li></li>
   <li></li>
