@@ -1,6 +1,7 @@
 import React from 'react'
-import { SocketLoader } from "./components/SocketLoader/SocketLoader";
-import { REQUEST_STATUS } from "./utils/useFetch";
+
+import { REQUEST_STATUS } from "../../utils/useFetch";
+import { SocketLoader } from '../SocketLoader/SocketLoader';
 
 
 
