@@ -131,6 +131,7 @@ body {
 
 .header {
   height: 35vh;
+  background-image: url(/src/assets/pattern-bg-desktop.png);
 }
 
   .location-info__ip-address,
