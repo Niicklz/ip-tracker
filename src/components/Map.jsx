@@ -7,12 +7,10 @@ import "./Map.css";
 
 export const Map = ({ lat, lng }) => {
   const iconMark = new L.icon({ iconUrl: markerIcon });
-  let state = {
-    keyMAP: Math.random(),
-  };
+ 
   return (
     <MapContainer
-      key={state.keyMAP}
+      key={"joseMap"}
       center={[lat, lng]}
       zoom={18}
       scrollWheelZoom={true}

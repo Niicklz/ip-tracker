@@ -21,10 +21,15 @@ export const useFetch = ({url = "", defaultVal }) => {
                         
             
             setInfo(data)
-            setStatus(REQUEST_STATUS.SUCCESS)
             
-            
-
+           
+            if(data.code){
+                setStatus(REQUEST_STATUS.ERROR)
+            } else {
+                setStatus(REQUEST_STATUS.SUCCESS)
+            }
+           
+         
         }catch{
             setStatus(REQUEST_STATUS.ERROR)
         }
