@@ -7,6 +7,7 @@ import "./Map.css";
 
 export const Map = ({ lat, lng }) => {
   const iconMark = new L.icon({ iconUrl: markerIcon });
+  
  
   return (
     <MapContainer

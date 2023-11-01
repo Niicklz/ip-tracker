@@ -78,7 +78,7 @@ body {
   flex-direction: column;
   gap: 1.5rem;
   padding: 2rem;
-  z-index: 200;
+ z-index: 3000;
   justify-content: center;
   align-items: center;
 }
