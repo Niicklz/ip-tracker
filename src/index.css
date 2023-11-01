@@ -20,6 +20,9 @@ body {
   background-size: cover;
 
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header__title {
@@ -30,16 +33,21 @@ body {
   margin-bottom: 1rem;
   padding: 2rem;
 }
-
-.header__label-search {
+.header form {
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header__label-search {
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  max-width: 550px;
 }
 .header__input-search {
-  width: 80%;
+  width: 100%;
   padding: 0.9rem;
   border: none;
   font-size: 18px;
