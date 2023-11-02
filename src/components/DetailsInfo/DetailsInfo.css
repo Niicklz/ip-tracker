@@ -1,0 +1,40 @@
+.details-container {
+  text-transform: uppercase;
+  text-align: center;
+}
+.detail__text {
+  font-size: 12px;
+  color: var(--dark-gray);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.detail__address,
+.detail__location,
+.detail__timezone,
+.detail__isp {
+  font-size: 18px;
+  font-weight: 500;
+}
+.detail__location,
+.detail__isp {
+  text-transform: capitalize;
+}
+
+@media (min-width: 1024px) {
+  .details-container {
+    text-align: start;
+  }
+
+  .header__location-info .details-container {
+    width: calc(100% / 4);
+    padding-left: 1.8rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header__location-info div:nth-child(-n + 3) {
+    border-right: 1px solid var(--dark-gray);
+  }
+}

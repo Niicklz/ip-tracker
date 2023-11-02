@@ -1,0 +1,30 @@
+.header__label-search {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  max-width: 550px;
+}
+.header__input-search {
+  width: 100%;
+  padding: 0.9rem;
+  border: none;
+  font-size: 18px;
+  color: hsl(0, 0%, 17%);
+  cursor: pointer;
+  max-width: 500px;
+  outline: none;
+  border-radius: 12px 0 0 12px;
+}
+.header__button-search {
+  background-color: black;
+  padding: 1rem;
+  border: none;
+  border-radius: 0 12px 12px 0;
+  transition: 0.3s ease-in-out;
+}
+.header__button-search:hover {
+  background-color: rgba(0, 0, 0, 0.519);
+  transition: 0.3s ease-in-out;
+}
